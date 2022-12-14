@@ -79,3 +79,8 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+
+
+#draaien.rotate{
+  transform: rotate(90deg);
+}
