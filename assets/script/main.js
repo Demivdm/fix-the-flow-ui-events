@@ -3,7 +3,7 @@ let interaction = document.querySelector('a:nth-of-type(12)')
 
 var kleur = document.getElementById('kleur')
 var draaien = document.getElementById('draaien')
-
+var geschud = document.getElementById('schud')
 
 
 interaction.addEventListener('click', jumpHandler)
