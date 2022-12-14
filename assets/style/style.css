@@ -81,7 +81,7 @@ a:nth-of-type(12) {
 /* Jouw animaties */
 
 
-.achtergrond{
+.achtergrond:hover{
   background-color: red;
 }
 
