@@ -1,4 +1,5 @@
 let interaction = document.querySelector('a:nth-of-type(12)')
+//variabelen
 
 var kleur = document.getElementById('kleur')
 var draaien = document.getElementById('draaien')
@@ -10,13 +11,16 @@ function jumpHandler() {
   interaction.classList.toggle('jump')
 }
 
-function KleurVeranderen(){  
-  
-  kleur.style.backgroundColor='Red';
-   
-}
+//interactie1
 
-function TurnAround() {
+kleur.addEventListener('mouseover', function handleMouseOver() {
+  kleur.classList.add('achtergrond');
+});
 
-  draaien.classList.add("turnover")
-}
+kleur.addEventListener('mouseout', function handleMouseOut() {
+  kleur.classList.remove('achtergrond');
+});
+
+
+
+

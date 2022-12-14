@@ -81,6 +81,10 @@ a:nth-of-type(12) {
 /* Jouw animaties */
 
 
-#draaien.rotate{
-  transform: rotate(90deg);
+.achtergrond{
+  background-color: red;
+}
+.gedraaid{
+  transform:  rotate(180deg);
+
 }
