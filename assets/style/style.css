@@ -84,7 +84,26 @@ a:nth-of-type(12) {
 .achtergrond{
   background-color: red;
 }
-.gedraaid{
-  transform:  rotate(180deg);
 
+.gedraaid{
+  transition: all 1s;
+  transform: rotate(360deg);
+  
 }
+
+.schudden{
+  animation-name: schud;
+  animation-timing-function: cubic-bezier(.36, .07, .19, .97);
+  animation-duration: .2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes schud {
+  10%, 90% {
+    transform: translate3d(-10px, 0, 1);
+  }
+  20%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);}}
