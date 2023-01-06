@@ -5,6 +5,10 @@ var kleur = document.getElementById('kleur')
 var draaien = document.getElementById('draaien')
 var geschud = document.getElementById('schud')
 
+let interface = document.querySelector('a:nth-of-type(10)')
+let feedback = document.querySelector('a:nth-of-type(15)')
+let feedforward = document.querySelector('a:nth-of-type(16)')
+let and = document.querySelector('a:nth-of-type(3)')
 
 interaction.addEventListener('click', jumpHandler)
 interaction.addEventListener('animationend', jumpHandler)
@@ -26,6 +30,7 @@ function jumpHandler() {
 
 
 // interactie 2
+
 draaien.addEventListener('click', turnHandler)
 draaien.addEventListener('animationend', turnHandler)
 
@@ -44,3 +49,36 @@ function shakeHandler() {
 
 // interactie 4
 
+interface.addEventListener('click', stretchHandler)
+interface.addEventListener('animationend', stretchHandler)
+
+function stretchHandler(){
+  interface.classList.toggle('stretch')
+}
+
+// interactie 5
+
+feedback.addEventListener('click', upHandler)
+feedback.addEventListener('animated', upHandler)
+
+function upHandler(){
+  feedback.classList.toggle('up')
+}
+
+// interactie 6
+
+feedforward.addEventListener('click', tiltHandler)
+feedforward.addEventListener('animated', tiltHandler)
+
+function tiltHandler(){
+  feedforward.classList.toggle('tilt')
+}
+
+//interactie 7
+
+and.addEventListener('click', skinnyHandler)
+and.addEventListener('animated', skinnyHandler)
+
+function skinnyHandler(){
+  and.classList.toggle('skinny')
+}

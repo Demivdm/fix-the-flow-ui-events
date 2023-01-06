@@ -98,6 +98,36 @@ a:nth-of-type(12) {
   animation-iteration-count: 1;
 }
 
+.stretch{
+  animation-name: stretch;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+a:nth-of-type(10){
+  position: relative;
+  display:inline-block;
+}
+
+.up{
+  animation-name: up;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+.tilt{
+  animation: tilt;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+.skinny{
+  animation: skinny;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+
+}
+
 @keyframes schud {
   10%, 90% {
     transform: translate3d(-10px, 0, 1);
@@ -107,3 +137,46 @@ a:nth-of-type(12) {
   }
   30%, 50%, 70% {
     transform: translate3d(-4px, 0, 0);}}
+
+    
+ @keyframes stretch{
+      30% {
+       padding-right:100px;
+       padding-left: 100px;
+      }
+     }
+
+@keyframes up{
+      0% {
+        transform: translateY(0);
+      }
+    
+      10% {
+        transform: translateY(1rem);
+      }
+    
+      20%{
+        transform: translateY(-10rem);
+      }
+    
+      100%{
+        transform: translateY(0);
+      }
+    
+    }
+
+    @keyframes tilt{
+      10%{
+        transform: rotate(-90deg);
+      }
+
+    
+    }
+
+    @keyframes skinny{
+
+      10%{
+       transform:  rotateY(89deg);
+      }
+      
+    }
