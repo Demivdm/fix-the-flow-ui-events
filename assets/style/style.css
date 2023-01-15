@@ -144,6 +144,8 @@ a:nth-of-type(10){
   border-radius: 0;
 }
 
+/* keyframes */
+
 @keyframes schud {
   10%, 90% {
     transform: translate3d(-10px, 0, 1);
