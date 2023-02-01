@@ -9,8 +9,6 @@ Dit project omvat een pagina met 10 verschillende interacties.
 
 * [Beschrijving](https://github.com/Demivdm/fix-the-flow-ui-events#beschrijving) 
 
-* [Beschrijving](https://github.com/Demivdm/De-Voorhoede-10-jaar#beschrijving) 
-
 * [Kenmerken](https://github.com/Demivdm/fix-the-flow-ui-events#kenmerken) 
 
 * [Installatie](https://github.com/Demivdm/fix-the-flow-ui-events#installatie)
