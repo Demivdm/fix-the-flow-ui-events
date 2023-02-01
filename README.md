@@ -60,6 +60,7 @@ Dit project is gemaakt met HTML,CSS en Javascript. Verder staat hieronder een ko
 **Could have**
 
   ❌Los plaatje wat is geanimeerd
+  
   ❌Meer interacties
   
 
