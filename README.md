@@ -1,6 +1,8 @@
 
 # Fix the flow UI events
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/112861166/216002893-74b94edd-7fee-4ba1-806c-ae3f24b0951b.gif)
+
 Dit project omvat een pagina met 10 verschillende interacties.
 
 ## Inhoudsopgave
